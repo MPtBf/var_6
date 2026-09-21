@@ -67,18 +67,18 @@ public class Main {
 
         double T = 2 * Math.PI * Math.sqrt(l / g);
         System.out.println("Период колебания данного маятника равен:");
-        System.out.println(T);
+        System.out.printf("%.2f\n", T);
     }
 
     static void main() throws Exception {
         System.out.println("Задание 1");
-        firstTask();
+        //firstTask();
         System.out.println("-----------------");
         System.out.println("Задание 2");
-        System.out.println(secondTask());
+        //System.out.println(secondTask());
         System.out.println("-----------------");
         System.out.println("Задание 3");
-        thirdTask();
+        //thirdTask();
         System.out.println("-----------------");
         System.out.println("Задание 4");
         fourthTask();
